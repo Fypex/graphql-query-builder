@@ -4,13 +4,14 @@ declare(strict_types=1);
 namespace Helis\GraphqlQueryBuilder;
 
 use Helis\GraphqlQueryBuilder\Traits\FieldsAwareTrait;
+use Helis\GraphqlQueryBuilder\Traits\FragmentsAwareTrait;
 use Helis\GraphqlQueryBuilder\Traits\OperationNameAwareTrait;
 use Helis\GraphqlQueryBuilder\Traits\ToStringTrait;
 use Helis\GraphqlQueryBuilder\Traits\VariablesAwareTrait;
 
 class Query implements StringableInterface
 {
-    use ToStringTrait, FieldsAwareTrait, VariablesAwareTrait, OperationNameAwareTrait;
+    use ToStringTrait, FieldsAwareTrait, VariablesAwareTrait, OperationNameAwareTrait, FragmentsAwareTrait;
 
     /**
      * {@inheritdoc}
@@ -39,6 +40,10 @@ class Query implements StringableInterface
 
         $query = rtrim($query, ', ');
         $query .= ' }';
+
+        foreach ($this->fragments as $fragment) {
+            $query .= ' '.(string)$fragment;
+        }
 
         return $query;
     }
