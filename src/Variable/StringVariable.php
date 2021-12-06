@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Variable;
+namespace Fypex\GraphqlQueryBuilder\Variable;
 
 class StringVariable extends ScalarVariable
 {

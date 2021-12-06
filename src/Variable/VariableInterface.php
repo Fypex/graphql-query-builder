@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Variable;
+namespace Fypex\GraphqlQueryBuilder\Variable;
 
-use Helis\GraphqlQueryBuilder\StringableInterface;
+use Fypex\GraphqlQueryBuilder\StringableInterface;
 
 interface VariableInterface extends StringableInterface
 {

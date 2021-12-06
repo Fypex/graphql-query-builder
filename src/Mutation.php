@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder;
+namespace Fypex\GraphqlQueryBuilder;
 
-use Helis\GraphqlQueryBuilder\Traits\FieldsAwareTrait;
-use Helis\GraphqlQueryBuilder\Traits\OperationNameAwareTrait;
-use Helis\GraphqlQueryBuilder\Traits\ToStringTrait;
-use Helis\GraphqlQueryBuilder\Traits\VariablesAwareTrait;
+use Fypex\GraphqlQueryBuilder\Traits\FieldsAwareTrait;
+use Fypex\GraphqlQueryBuilder\Traits\OperationNameAwareTrait;
+use Fypex\GraphqlQueryBuilder\Traits\ToStringTrait;
+use Fypex\GraphqlQueryBuilder\Traits\VariablesAwareTrait;
 
 class Mutation implements StringableInterface
 {

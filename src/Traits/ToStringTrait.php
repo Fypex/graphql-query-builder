@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Traits;
+namespace Fypex\GraphqlQueryBuilder\Traits;
 
 trait ToStringTrait
 {

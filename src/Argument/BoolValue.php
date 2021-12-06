@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Argument;
+namespace Fypex\GraphqlQueryBuilder\Argument;
 
 class BoolValue implements ArgumentInterface
 {

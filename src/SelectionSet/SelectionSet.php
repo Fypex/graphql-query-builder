@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\SelectionSet;
+namespace Fypex\GraphqlQueryBuilder\SelectionSet;
 
-use Helis\GraphqlQueryBuilder\StringableInterface;
+use Fypex\GraphqlQueryBuilder\StringableInterface;
 
 /**
  * Class SelectionSet represents set of fields

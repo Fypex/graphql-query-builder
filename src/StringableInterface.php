@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder;
+namespace Fypex\GraphqlQueryBuilder;
 
 interface StringableInterface
 {

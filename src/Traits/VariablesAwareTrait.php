@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Traits;
+namespace Fypex\GraphqlQueryBuilder\Traits;
 
-use Helis\GraphqlQueryBuilder\Variable\VariableInterface;
+use Fypex\GraphqlQueryBuilder\Variable\VariableInterface;
 
 trait VariablesAwareTrait
 {

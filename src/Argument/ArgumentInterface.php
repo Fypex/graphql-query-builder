@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Argument;
+namespace Fypex\GraphqlQueryBuilder\Argument;
 
-use Helis\GraphqlQueryBuilder\StringableInterface;
+use Fypex\GraphqlQueryBuilder\StringableInterface;
 
 interface ArgumentInterface extends StringableInterface
 {

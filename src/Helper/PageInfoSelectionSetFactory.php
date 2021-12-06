@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Helper;
+namespace Fypex\GraphqlQueryBuilder\Helper;
 
-use Helis\GraphqlQueryBuilder\SelectionSet\Field;
-use Helis\GraphqlQueryBuilder\SelectionSet\SelectionSet;
+use Fypex\GraphqlQueryBuilder\SelectionSet\Field;
+use Fypex\GraphqlQueryBuilder\SelectionSet\SelectionSet;
 
 class PageInfoSelectionSetFactory
 {

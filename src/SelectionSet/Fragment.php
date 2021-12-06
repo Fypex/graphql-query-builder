@@ -1,9 +1,9 @@
 <?php
 
-namespace Helis\GraphqlQueryBuilder\SelectionSet;
+namespace Fypex\GraphqlQueryBuilder\SelectionSet;
 
-use Helis\GraphqlQueryBuilder\Argument\ArgumentInterface;
-use Helis\GraphqlQueryBuilder\StringableInterface;
+use Fypex\GraphqlQueryBuilder\Argument\ArgumentInterface;
+use Fypex\GraphqlQueryBuilder\StringableInterface;
 
 
 /**
