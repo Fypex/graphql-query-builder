@@ -1,12 +1,12 @@
 {
-    "name": "helis/graphql-query-builder",
+    "name": "fypex/graphql-query-builder",
     "description": "Query builder library for GraphQL",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Helis LT",
-            "email": "info@helis.lt"
+            "name": "Maksim Grischenko",
+            "email": "endtimes104@gmail.com"
         }
     ],
     "minimum-stability": "stable",
