@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Test;
+namespace Fypex\GraphqlQueryBuilder\Test;
 
-use Helis\GraphqlQueryBuilder\Argument\IntValue;
-use Helis\GraphqlQueryBuilder\Operation;
-use Helis\GraphqlQueryBuilder\Query;
-use Helis\GraphqlQueryBuilder\SelectionSet\Field;
-use Helis\GraphqlQueryBuilder\SelectionSet\SelectionSet;
+use Fypex\GraphqlQueryBuilder\Argument\IntValue;
+use Fypex\GraphqlQueryBuilder\Operation;
+use Fypex\GraphqlQueryBuilder\Query;
+use Fypex\GraphqlQueryBuilder\SelectionSet\Field;
+use Fypex\GraphqlQueryBuilder\SelectionSet\SelectionSet;
 use PHPUnit\Framework\TestCase;
 
 class QueryTest extends TestCase

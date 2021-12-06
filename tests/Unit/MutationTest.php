@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Helis\GraphqlQueryBuilder\Test\Unit;
+namespace Fypex\GraphqlQueryBuilder\Test\Unit;
 
-use Helis\GraphqlQueryBuilder\Argument\ListValue;
-use Helis\GraphqlQueryBuilder\Argument\ObjectValue;
-use Helis\GraphqlQueryBuilder\Argument\StringValue;
-use Helis\GraphqlQueryBuilder\Mutation;
-use Helis\GraphqlQueryBuilder\SelectionSet\Field;
-use Helis\GraphqlQueryBuilder\SelectionSet\SelectionSet;
+use Fypex\GraphqlQueryBuilder\Argument\ListValue;
+use Fypex\GraphqlQueryBuilder\Argument\ObjectValue;
+use Fypex\GraphqlQueryBuilder\Argument\StringValue;
+use Fypex\GraphqlQueryBuilder\Mutation;
+use Fypex\GraphqlQueryBuilder\SelectionSet\Field;
+use Fypex\GraphqlQueryBuilder\SelectionSet\SelectionSet;
 use PHPUnit\Framework\TestCase;
 
 class MutationTest extends TestCase
