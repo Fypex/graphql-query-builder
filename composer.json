@@ -12,12 +12,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Helis\\GraphqlQueryBuilder\\": "src/"
+            "Fypex\\GraphqlQueryBuilder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Helis\\GraphqlQueryBuilder\\Test\\": "tests/"
+            "Fypex\\GraphqlQueryBuilder\\Test\\": "tests/"
         }
     },
     "require": {
